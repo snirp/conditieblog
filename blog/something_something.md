@@ -1,9 +1,10 @@
-title: Example of a blog posting
-published: 2014-02-13
-lastmod: 2014-02-14
-summary: "This is a short summary of the example blog posting. Read it."
+title: "Another random blog post"
+author: "Mark Twain"
+published: 2014-02-17
+lastmod: 2014-02-17
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel leo turpis. Cras vulputate mattis dignissim. Aliquam eget purus purus."
 
-##Introduction
+##Lorem ipsum dolor sit amet
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel leo turpis. Cras vulputate mattis dignissim. Aliquam eget purus purus. Etiam accumsan fermentum pharetra. Curabitur auctor felis a quam ullamcorper, at pharetra turpis molestie. Suspendisse bibendum est sit amet eleifend placerat. Morbi mattis scelerisque est, vel molestie lorem iaculis ut. Suspendisse ultricies facilisis lorem euismod fermentum. Sed malesuada vel nulla vel pulvinar. Sed venenatis convallis enim ac auctor. Nunc interdum purus id lectus consectetur posuere. Quisque vel augue lorem. Curabitur gravida sem a eros facilisis vehicula.
 

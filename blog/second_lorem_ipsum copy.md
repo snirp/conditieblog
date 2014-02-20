@@ -1,4 +1,5 @@
-title: Blog post about something
+title: "Blog post about something"
+author: "Roy Prins"
 published: 2014-02-15
 lastmod: 2014-02-15
 description: "This is what happens when I run out of inspiration."
