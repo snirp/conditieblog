@@ -8,7 +8,10 @@ html, body {
     padding: 0;
 }
 
-#home #nav-home a, #contact #nav-contact a, #tips #nav-tips a {
+#home #nav-home a,
+#contact #nav-contact a,
+#tip #nav-tip a,
+#blog #nav-blog a{
   color: #e4e;
 }
 

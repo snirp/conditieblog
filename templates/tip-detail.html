@@ -1,6 +1,8 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-<h1>{{ t.meta.title }}</h1>
+<h1>{{ t.title }}</h1>
 {{ t.html|safe }}
+
+<a href="{{ t.pdf() }}">pdf version</a>
 {% endblock %}

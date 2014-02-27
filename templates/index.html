@@ -1,33 +1,6 @@
-<<<<<<< HEAD
 {% extends "layout.html" %}
 
 {% block content %}
   <h2>Index pagina</h2>
 
-=======
-{% extends 'base.html' %}
-{% block content %}
-  {{ super () }}
-<div id="menu">
-  <ul>
-    <li id="link-home"><a href="{{ url_for('index') }}">Home</a></li>
-    <li id="link-blog"><a href="{{ url_for('blog_index') }}">Blog</a></li>
-    <li id="link-contact"><a href="{{ url_for('contact') }}">Contact</a></li>
-  </ul>
-</div>
-<h1>Reference project</h1>
-<p>This page is the result of the Flatfreeze tutorial.</p>
-<p>The most recent blog postings:</p>
-<div class="bloglist">
-{% for b in blog_list %}
-  <div class="bloglistitem">
-    <a href="{{ url_for('blog_detail', path=b.path ) }}">
-      <div class="left">{{ b.meta.title }}</div>
-      <div class="right">{{ b.meta.author }}, {{ b.meta.published }}</div>
-      <p class="clearfix">{{ b.meta.description }}</p>
-    </a>
-  </div>
-{% endfor %}
-</div>
->>>>>>> d15a49f4c572324fa712ff29f0f3f732e1b11b14
 {% endblock %}

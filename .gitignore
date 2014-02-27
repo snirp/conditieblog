@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 venv
 venv2
 .idea
 *.pyc
 *.~
 gh-pages
-=======
-gh-pages
-venv
-.idea
-*.pyc
-*~
 .DS_Store
-.idea
->>>>>>> d15a49f4c572324fa712ff29f0f3f732e1b11b14
