@@ -1,0 +1,23 @@
+{% macro html5_date(date, format='%B %d, %Y', pubdate=True) -%}
+    <time{{ ' pubdate' if pubdate }} datetime="{{ date.isoformat() }}">
+        {{- date.strftime(format) }}</time>
+{%- endmacro %}
+
+{% macro article_list(articles) %}
+{% if articles %}
+  <section class=article_list>
+  {% for a in articles %}
+    <article>
+      <h3>
+        <a href="{{ a.url() }}">{{ a.title }}</a>
+      </h3>
+      <p>{% if a.published %}{{ html5_date(a.published) }}{% endif %}</p>
+      {% if a.summary %}
+        {{ a.summary|markdown|safe }}
+      {% endif %}
+      <p><a href="{{ a.pdf() }}">download pdf</a></p>
+    </article>
+  {% endfor %}
+  </section>
+{% endif %}
+{% endmacro %}

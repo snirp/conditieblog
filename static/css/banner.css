@@ -1,0 +1,77 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+/* @GROUP banner */
+
+#banner {
+  background-color: #a10f53;
+  font-weight: 300;
+  color: #fff;
+}
+
+.columns {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+  margin: 40px 0 10px 2%;
+}
+
+.column-3-5 {
+  width: 59%;
+}
+
+.column-2-5 {
+  width: 39%;
+}
+
+.columns > div:first-child {
+  margin-left: 0;
+}
+
+#links {
+  padding-top: 30px;
+}
+
+#links p {
+  text-align: center;
+}
+
+.linkbutton {
+  display: inline-block;
+  margin: 6px auto;
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #a10f53;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.linkbutton:hover {
+  text-decoration: underline;
+}
+
+.pitch {
+  border-top: 1px solid #fff;
+  padding: 10px 0 30px;
+}
+
+#catchphrase {
+  font-size: 3em;
+  font-weight: 200;
+}
+
+#properties ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-left: 0;
+}
+
+#properties ul li {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}

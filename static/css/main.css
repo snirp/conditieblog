@@ -1,0 +1,71 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 100%;
+
+  color:#333;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* @GROUP content */
+
+#menu ul {
+  list-style-type: none;
+  text-align: right;
+  max-width: 700px;
+  margin: 50px auto 10px;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+h1 {
+  font-size:2.5em;
+  text-align: center;
+  font-weight: inherit;
+}
+
+p, h2, h3, h4, h5, h6, ul, ol, blockquote {
+  max-width: 700px;
+  margin: 8px auto;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  font-size: 1.5em;
+  float: left;
+}
+
+.bloglist {
+  margin: 10px 0;
+}
+
+.bloglistitem {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 8px;
+}
+
+.bloglistitem a {
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 5px 2px;
+  color: #222;
+  text-decoration: none;
+}

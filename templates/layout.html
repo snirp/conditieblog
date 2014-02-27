@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <title>TODO: make dynamic</title>
+  <link rel=stylesheet href="{{ url_for('stylesheet') }}">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/png" >
+  <!--[if lte IE 9]>
+
+  <![endif]-->
+</head>
+
+<body id="{{pageid}}">
+  <header>
+    logo here
+    <nav>
+      <ul>
+        <li id="nav-home"><a href="{{ url_for('home') }}">Home</a></li>
+        <li id="nav-contact"><a href="{{ url_for('contact') }}">Contact</a></li>
+        <li id="nav-tips"><a href="{{ url_for('tip_index') }}">Stravis tips</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id=content>
+  {% block content %}{% endblock %}
+  </div>
+
+  <footer>
+    footer here
+  </footer>
+</body>
+</html>

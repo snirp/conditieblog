@@ -1,0 +1,44 @@
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+    /* Fix HTML5 elements in older browsers */
+    display:block;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#home #nav-home a, #contact #nav-contact a, #tips #nav-tips a {
+  color: #e4e;
+}
+
+body {
+    background: #fff;
+    color: #111;
+    /* 18px/27px with the default of 16px */
+    font: 1.125em/1.5 Palatino, Georgia, serif;
+}
+
+/* @GROUP PRINT */
+
+@page { size: A4; margin: 1cm }
+@media print {
+    nav { display: none }
+}
+
+/* @GROUP PYGMENTS */
+
+{{ pygments_css }}
+
+.codehilite, blockquote {
+    background-color: #eee;
+    margin: 0 -20px;
+    padding: 5px 20px 5px 15px;
+    border-left: 5px solid #888;
+}
+.codehilite {
+    line-height: normal;
+}
+.codehilite pre {
+    white-space: pre-wrap;
+}

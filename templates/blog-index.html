@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block head %}
+{{ super() }}
+<link href="{{ url_for('blog_feed') }}"
+      rel="alternate"
+      title="Recent Blog Postings"
+      type="application/atom+xml">
+{% endblock %}
+{% block content %}
+<div id="menu">
+  <ul>
+    <li id="link-home"><a href="{{ url_for('index') }}">Home</a></li>
+    <li id="link-blog"><a href="{{ url_for('blog_index') }}">Blog</a></li>
+    <li id="link-contact"><a href="{{ url_for('contact') }}">Contact</a></li>
+  </ul>
+</div>
+<h1>Blog index</h1>
+<p>These are all the published blog postings:</p>
+<div class="bloglist">
+{% for b in blog_list %}
+  <div class="bloglistitem">
+    <a href="{{ url_for('blog_detail', path=b.path ) }}">
+      <div class="left">{{ b.meta.title }}</div>
+      <div class="right">{{ b.meta.author }}, {{ b.meta.published }}</div>
+      <p class="clearfix">{{ b.meta.description }}</p>
+    </a>
+  </div>
+{% endfor %}
+</div>
+
+{% endblock %}

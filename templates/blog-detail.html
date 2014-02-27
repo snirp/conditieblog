@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+{{ lang }}
+
+<h1>{{ b.meta.title }}</h1>
+
+
+{{ b.html|safe }}
+=======
+{% extends 'base.html' %}
+{% block content %}
+<div id="menu">
+  <ul>
+    <li id="link-home"><a href="{{ url_for('index') }}">Home</a></li>
+    <li id="link-blog"><a href="{{ url_for('blog_index') }}">Blog</a></li>
+    <li id="link-contact"><a href="{{ url_for('contact') }}">Contact</a></li>
+  </ul>
+</div>
+<h1>{{ blog.meta.title }}</h1>
+{{ blog }}
+{% endblock %}
+>>>>>>> d15a49f4c572324fa712ff29f0f3f732e1b11b14

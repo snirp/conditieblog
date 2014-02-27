@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% import "utils.html" as utils %}
+
+{% block content %}
+  <h2>Alle Tips</h2>
+  {{ utils.article_list(tips) }}
+{% endblock %}
