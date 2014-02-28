@@ -13,7 +13,7 @@
       </h3>
       <p>{% if a.published %}{{ html5_date(a.published) }}{% endif %}</p>
       {% if a.summary %}
-        {{ a.summary|markdown|safe }}
+        {{ a.summary|jinjatag|markdown|safe }}
       {% endif %}
       <p><a href="{{ a.pdf() }}">download pdf</a></p>
     </article>

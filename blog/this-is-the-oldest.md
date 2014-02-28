@@ -3,7 +3,7 @@ summary     : "Lorem ipsum dolor sit amet, *consectetur adipiscing elit. Integer
 author      : Roy Prins
 published   : 2013-06-14
 
-##Lorem ipsum dolor sit amet
+##Lorem ipsum dolor sit amet.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel leo turpis. Cras vulputate mattis dignissim. Aliquam eget purus purus. Etiam accumsan fermentum pharetra. Curabitur auctor felis a quam ullamcorper, at pharetra turpis molestie. Suspendisse bibendum est sit amet eleifend placerat. Morbi mattis scelerisque est, vel molestie lorem iaculis ut. Suspendisse ultricies facilisis lorem euismod fermentum. Sed malesuada vel nulla vel pulvinar. Sed venenatis convallis enim ac auctor. Nunc interdum purus id lectus consectetur posuere. Quisque vel augue lorem. Curabitur gravida sem a eros facilisis vehicula.
 
